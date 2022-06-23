@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="@color/lightGreen"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="15dp"
+        android:outlineAmbientShadowColor="@color/green"
+        android:outlineSpotShadowColor="@color/black">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address "
+                    android:layoutDirection="ltr"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:id="@+id/name1"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="3"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    tools:text="branchnameggggggggggggggggg ggggggggggggggggggggg ggggggggggggggggggggggggg" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tellers"
+                    android:layoutDirection="ltr"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:padding="5dp"
+                    android:id="@+id/queue1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="number of queue"
+                    android:textColor="@color/black"
+                    android:layoutDirection="ltr"
+                    android:padding="5dp"
+                    android:id="@+id/teller2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/waiting_time"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold"
+                    android:layoutDirection="ltr"
+                    android:padding="5dp"
+                    android:id="@+id/waiting_time1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="time of waiting"
+                    android:layoutDirection="ltr"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/waiting_time2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/distance"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layoutDirection="ltr"
+                    android:padding="5dp"
+                    android:id="@+id/distance1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="dictant"
+                    android:layoutDirection="ltr"
+                    android:textColor="@color/black"
+                    android:padding="5dp"
+                    android:id="@+id/distance2"
+                    />
+
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="50sp"
+                >
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10sp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginHorizontal="30sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:textStyle="bold"
+                        android:text="@string/select"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:id="@+id/select_atm"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.bank.TypeFragment">
+
+    <LinearLayout
+        android:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        tools:context=".choose_service">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/beige"
+            app:cardCornerRadius="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/dark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:text="Choose Service Type"
+                    />
+
+                <ImageView
+                    android:layout_width="241dp"
+                    android:layout_height="172dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/type_service2" />
+
+                <Button
+                    android:id="@+id/customer_service_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    app:backgroundTint="@color/green"
+                    android:layout_marginHorizontal="40sp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:text="Customer Service"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/banking_services_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    app:backgroundTint="@color/green"
+                    android:layout_marginHorizontal="40sp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Banking Services"
+                    android:layout_marginTop="20dp"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/loans_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    app:backgroundTint="@color/green"
+                    android:layout_marginHorizontal="40sp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:text="Loans"
+                    android:gravity="center"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/inquiry_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    app:backgroundTint="@color/green"
+                    android:layout_marginHorizontal="40sp"
+                    android:textAllCaps="false"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:text="Inquiry"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

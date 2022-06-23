@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Smart Queuing System</string>
+    <string name="Skip">Skip</string>
+    <string name="facebook_app_id">1391004144663407</string>
+    <string name="title_activity_choose_service">choose_service</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_hamburger_menu">hamburger_menu</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="question1">What type of accounts can be opened in the bank?</string>
+    <string name="question2">What are savings accounts?</string>
+    <string name="question3">What are current accounts?</string>
+    <string name="questionDeposit1">What are the deposits provided by bank?</string>
+    <string name="questionDeposit2">What is the Local currency deposits?</string>
+    <string name="questionDeposit3">What is the Foreign currency deposits?</string>
+    <string name="Currencies_btn">Currencies</string>
+    <string name="Loans_btn">Loans</string>
+    <string name="Deposits_btn">Deposits</string>
+    <string name="Accounts_btn">Accounts</string>
+    <string name="Inquiry_about">Inquiry about</string>
+    <string name="Egyptian_Pound">In Egyptian Pound</string>
+    <string name="chooseCurrency">Choose currency here</string>
+    <string name="loans_first_btn">What are the loans provided by the bank?</string>
+    <string name="loans_second_btn">What are the conditions for obtaining a loan?</string>
+    <string name="loans_third_btn">What are the documents required to obtain a loan?</string>
+    <string name="currencyQuestion">What are the Currency rate?</string>
+    <string name="name">Name</string>
+    <string name="queue">Queue</string>
+    <string name="distance">Distance</string>
+    <string name="waiting_time">Waiting Time:</string>
+    <string name="select">Select</string>
+    <string name="adress_of_atm">Adress of ATM :</string>
+    <string name="people_in_queue">People in Queue: </string>
+    <string name="go_to_atm_on_time">Go To Atm On Time</string>
+    <string name="your_code_is">Your Code is:</string>
+    <string name="take_screen_shot">Take Screen Shot</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="enter_confirm_password">Enter Confirm password</string>
+
+    <string-array name="Currencies_names">
+        <item>Australlian dollar</item>
+        <item>Bahraini dinar</item>
+        <item>Euro</item>
+        <item>Japanese yen</item>
+        <item>Saudi riyal</item>
+        <item>South Korean won</item>
+        <item>Turkish lira</item>
+        <item>US dollar</item>
+
+    </string-array>
+
+    <string-array name="distance">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+
+    <string-array name="location">
+        <item>Current</item>
+        <item>Custom</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
